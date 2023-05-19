@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial; 
+    color: #fff;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
+    background: linear-gradient(to right, #062a2e,#0c4b52,#062a2e);
+}
+
+
+.heading{
+    background:linear-gradient(to right,#062a2e,#0c545c,#062a2e);
+    height: 5vh;
+    padding: 10px 0    ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    color: #f4e9ea;
+    font-size: 45px;
+    /* font-family:castellar; */
+    font-weight: bolder;
+}
+.menubar{
+    width: 100%;
+    height: 5vh;
+    background: linear-gradient(to right,#062a2e,#0c545c,#062a2e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cf{
+    display: flex;
+    
+}
+.cf li{
+    list-style: none;
+    margin-right:25px;
+    padding: 5px;
+    transition: 0.25s;
+    
+    
+}
+.cf li:hover{
+    background-color: #460d0d;
+    
+}
+.cf li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: arial;
+}
+.intro{
+    width: 100%;
+    height: 90vh;;
+    background: url(shop.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    font-family: castellar;
+    letter-spacing: 2px;
+}
+.intro h2{
+    color: #fff;
+    font-family: arial;
+    text-align: center;
+}
+.intro p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+/* #aboutus{
+    text-align: center;
+    padding: 10px 0 ;
+}
+#aboutus h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+#aboutus h3{
+    margin: 10px 0 20px 0;
+}
+#aboutus .lead{
+    margin: 0 0 40px 0;
+}
+#aboutus button{
+    width: 120px;
+    height: 50px;
+    background-color: #460d0d;
+    transition: 0.1s;
+    border: none;
+    margin: 0 0 20px 0;
+}
+#aboutus button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#aboutus button:hover{
+    background-color: #540808;
+}
+#aboutus p{
+    margin: 10px 0 10px 0;
+} */
+#aboutus .lead{
+    margin: 0 0 40px 0;
+}
+.section{
+    text-align: center;
+    padding: 10px 0 ;
+}
+
+.section h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.section h3{
+    margin: 10px 0 20px 0;
+}
+.section p{
+    margin: 10px 0 20px 0;
+
+}
+.section button{
+    width: 120px;
+    height: 50px;
+    background-color: #460d0d;
+    transition: 0.1s;
+    border: none;
+    margin: 0 0 20px 0;
+}
+.section button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.section button:hover{
+    background-color: #540808;
+}
+.footer .foot{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 1rem;
+	text-align: left;
+	font-size: 16px;
+}
+.footer .foot ul{
+    list-style: none;
+}
+.footer .foot ul li{
+    margin: 20px;
+}
+.footer .foot ul li a{
+    text-decoration: none;
+}
+.footer .foot ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom:0.5rem ;
+	border-bottom: #858585 solid 1PX;
+}
+.copy{
+	background-color: #430303;
+	padding: 1rem;
+	text-align: center;
+}
+.contain{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+#fashion{
+    background: url(fashion.png)no-repeat center/cover;
+   
+}
+#electronics{
+    background: url(electrical.jpg) no-repeat bottom/cover;
+}
+#beauty{
+    background: url(beauty.avif) no-repeat center/cover;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: #0c4b52;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #430303;
+}
